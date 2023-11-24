@@ -20,7 +20,7 @@ import json
 
 from typing import Any, ClassVar, Dict, List
 from pydantic import BaseModel, StrictStr
-from uxmate_client.models.message_role import MessageRole
+from uxmate_client.models.role_enum import RoleEnum
 try:
     from typing import Self
 except ImportError:
@@ -30,9 +30,9 @@ class Message(BaseModel):
     """
     Message
     """ # noqa: E501
-    text: StrictStr
-    role: MessageRole
-    __properties: ClassVar[List[str]] = ["text", "role"]
+    role: RoleEnum
+    content: StrictStr
+    __properties: ClassVar[List[str]] = ["role", "content"]
 
     model_config = {
         "populate_by_name": True,
@@ -82,8 +82,8 @@ class Message(BaseModel):
             return cls.model_validate(obj)
 
         _obj = cls.model_validate({
-            "text": obj.get("text"),
-            "role": obj.get("role")
+            "role": obj.get("role"),
+            "content": obj.get("content")
         })
         return _obj
 

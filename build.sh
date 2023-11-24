@@ -1,1 +1,1 @@
-openapi-generator generate -i http://localhost:8001/openapi.json -g python -o . -c config.json
+openapi-generator generate -i https://ux-mate-api.portal.ai/openapi.json -g python -o . -c config.json

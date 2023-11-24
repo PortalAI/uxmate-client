@@ -4,8 +4,8 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**text** | **str** |  | 
-**role** | [**MessageRole**](MessageRole.md) |  | 
+**role** | [**RoleEnum**](RoleEnum.md) |  | 
+**content** | **str** |  | 
 
 ## Example
 
