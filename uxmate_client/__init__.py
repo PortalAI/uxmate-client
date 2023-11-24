@@ -14,10 +14,10 @@
 """  # noqa: E501
 
 
-__version__ = "1.0.5"
+__version__ = "1.0.6"
 
 # import apis into sdk package
-from uxmate.default_api import DefaultApi
+from uxmate_client.api.default_api import DefaultApi
 
 # import ApiClient
 from uxmate_client.api_response import ApiResponse
