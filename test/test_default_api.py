@@ -14,7 +14,7 @@
 
 import unittest
 
-from uxmate_client.default_api import DefaultApi
+from uxmate.default_api import DefaultApi
 
 
 class TestDefaultApi(unittest.TestCase):
