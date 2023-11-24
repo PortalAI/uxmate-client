@@ -101,6 +101,7 @@ Class | Method | HTTP request | Description
 *DefaultApi* | [**get_survey_record_survey_record_record_id_get**](docs/DefaultApi.md#get_survey_record_survey_record_record_id_get) | **GET** /survey_record/{record_id} | Get Survey Record
 *DefaultApi* | [**get_survey_summary_survey_record_record_id_summary_get**](docs/DefaultApi.md#get_survey_summary_survey_record_record_id_summary_get) | **GET** /survey_record/{record_id}/summary | Get Survey Summary
 *DefaultApi* | [**get_survey_survey_survey_id_get**](docs/DefaultApi.md#get_survey_survey_survey_id_get) | **GET** /survey/{survey_id} | Get Survey
+*DefaultApi* | [**get_survey_xlsx_survey_survey_id_report_xlsx_get**](docs/DefaultApi.md#get_survey_xlsx_survey_survey_id_report_xlsx_get) | **GET** /survey/{survey_id}/report/xlsx | Get Survey Xlsx
 *DefaultApi* | [**get_surveys**](docs/DefaultApi.md#get_surveys) | **GET** /survey | Get Surveys
 *DefaultApi* | [**get_surveys_list_by_business_id_business_business_id_survey_get**](docs/DefaultApi.md#get_surveys_list_by_business_id_business_business_id_survey_get) | **GET** /business/{business_id}/survey | Get Surveys List By Business Id
 *DefaultApi* | [**get_template_by_survey_id_survey_survey_id_template_get**](docs/DefaultApi.md#get_template_by_survey_id_survey_survey_id_template_get) | **GET** /survey/{survey_id}/template | Get Template By Survey Id

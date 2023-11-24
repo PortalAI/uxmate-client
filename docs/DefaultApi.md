@@ -20,6 +20,7 @@ Method | HTTP request | Description
 [**get_survey_record_survey_record_record_id_get**](DefaultApi.md#get_survey_record_survey_record_record_id_get) | **GET** /survey_record/{record_id} | Get Survey Record
 [**get_survey_summary_survey_record_record_id_summary_get**](DefaultApi.md#get_survey_summary_survey_record_record_id_summary_get) | **GET** /survey_record/{record_id}/summary | Get Survey Summary
 [**get_survey_survey_survey_id_get**](DefaultApi.md#get_survey_survey_survey_id_get) | **GET** /survey/{survey_id} | Get Survey
+[**get_survey_xlsx_survey_survey_id_report_xlsx_get**](DefaultApi.md#get_survey_xlsx_survey_survey_id_report_xlsx_get) | **GET** /survey/{survey_id}/report/xlsx | Get Survey Xlsx
 [**get_surveys**](DefaultApi.md#get_surveys) | **GET** /survey | Get Surveys
 [**get_surveys_list_by_business_id_business_business_id_survey_get**](DefaultApi.md#get_surveys_list_by_business_id_business_business_id_survey_get) | **GET** /business/{business_id}/survey | Get Surveys List By Business Id
 [**get_template_by_survey_id_survey_survey_id_template_get**](DefaultApi.md#get_template_by_survey_id_survey_survey_id_template_get) | **GET** /survey/{survey_id}/template | Get Template By Survey Id
@@ -1073,6 +1074,69 @@ Name | Type | Description  | Notes
 ### Return type
 
 [**GetSurveyResponse**](GetSurveyResponse.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+ - **Content-Type**: Not defined
+ - **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+**200** | Successful Response |  -  |
+**422** | Validation Error |  -  |
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **get_survey_xlsx_survey_survey_id_report_xlsx_get**
+> get_survey_xlsx_survey_survey_id_report_xlsx_get(survey_id)
+
+Get Survey Xlsx
+
+### Example
+
+```python
+import time
+import os
+import openapi_client
+from openapi_client.rest import ApiException
+from pprint import pprint
+
+# Defining the host is optional and defaults to http://localhost
+# See configuration.py for a list of all supported configuration parameters.
+configuration = openapi_client.Configuration(
+    host = "http://localhost"
+)
+
+
+# Enter a context with an instance of the API client
+with openapi_client.ApiClient(configuration) as api_client:
+    # Create an instance of the API class
+    api_instance = openapi_client.DefaultApi(api_client)
+    survey_id = 'survey_id_example' # str | 
+
+    try:
+        # Get Survey Xlsx
+        api_instance.get_survey_xlsx_survey_survey_id_report_xlsx_get(survey_id)
+    except Exception as e:
+        print("Exception when calling DefaultApi->get_survey_xlsx_survey_survey_id_report_xlsx_get: %s\n" % e)
+```
+
+
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **survey_id** | **str**|  | 
+
+### Return type
+
+void (empty response body)
 
 ### Authorization
 

@@ -35,8 +35,10 @@ class GetSurveyResponse(BaseModel):
     survey_description: StrictStr
     system_prompt: StrictStr
     initial_message: StrictStr
+    insight: StrictStr
     survey_records_count: Optional[StrictInt] = None
-    __properties: ClassVar[List[str]] = ["business_id", "survey_id", "survey_name", "survey_description", "system_prompt", "initial_message", "survey_records_count"]
+    chat_link: StrictStr
+    __properties: ClassVar[List[str]] = ["business_id", "survey_id", "survey_name", "survey_description", "system_prompt", "initial_message", "insight", "survey_records_count", "chat_link"]
 
     model_config = {
         "populate_by_name": True,
@@ -97,7 +99,9 @@ class GetSurveyResponse(BaseModel):
             "survey_description": obj.get("survey_description"),
             "system_prompt": obj.get("system_prompt"),
             "initial_message": obj.get("initial_message"),
-            "survey_records_count": obj.get("survey_records_count")
+            "insight": obj.get("insight"),
+            "survey_records_count": obj.get("survey_records_count"),
+            "chat_link": obj.get("chat_link")
         })
         return _obj
 

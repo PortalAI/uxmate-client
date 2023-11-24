@@ -10,7 +10,9 @@ Name | Type | Description | Notes
 **survey_description** | **str** |  | 
 **system_prompt** | **str** |  | 
 **initial_message** | **str** |  | 
+**insight** | **str** |  | 
 **survey_records_count** | **int** |  | [optional] 
+**chat_link** | **str** |  | 
 
 ## Example
 
