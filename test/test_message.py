@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.message import Message
+from uxmate_client.uxmate_client.message import Message
 
 class TestMessage(unittest.TestCase):
     """Message unit test stubs"""
@@ -36,13 +36,13 @@ class TestMessage(unittest.TestCase):
         model = Message()
         if include_optional:
             return Message(
-                role = 'human',
-                content = ''
+                text = '',
+                role = 'user'
             )
         else:
             return Message(
-                role = 'human',
-                content = '',
+                text = '',
+                role = 'user',
         )
         """
 

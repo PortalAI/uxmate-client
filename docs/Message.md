@@ -4,13 +4,13 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**role** | [**RoleEnum**](RoleEnum.md) |  | 
-**content** | **str** |  | 
+**text** | **str** |  | 
+**role** | [**MessageRole**](MessageRole.md) |  | 
 
 ## Example
 
 ```python
-from openapi_client.models.message import Message
+from uxmate_client.uxmate_client.message import Message
 
 # TODO update the JSON string below
 json = "{}"

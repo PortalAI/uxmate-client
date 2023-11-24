@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.validation_error_loc_inner import ValidationErrorLocInner
+from uxmate_client.uxmate_client.validation_error_loc_inner import ValidationErrorLocInner
 
 class TestValidationErrorLocInner(unittest.TestCase):
     """ValidationErrorLocInner unit test stubs"""
