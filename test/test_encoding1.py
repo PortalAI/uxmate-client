@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.encoding1 import Encoding1
+from uxmate_client.models.encoding1 import Encoding1
 
 class TestEncoding1(unittest.TestCase):
     """Encoding1 unit test stubs"""

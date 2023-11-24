@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.parameters_any_of_value import ParametersAnyOfValue
+from uxmate_client.models.parameters_any_of_value import ParametersAnyOfValue
 
 class TestParametersAnyOfValue(unittest.TestCase):
     """ParametersAnyOfValue unit test stubs"""

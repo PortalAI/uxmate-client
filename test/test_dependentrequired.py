@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.dependentrequired import Dependentrequired
+from uxmate_client.models.dependentrequired import Dependentrequired
 
 class TestDependentrequired(unittest.TestCase):
     """Dependentrequired unit test stubs"""

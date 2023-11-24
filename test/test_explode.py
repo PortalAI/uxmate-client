@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.explode import Explode
+from uxmate_client.models.explode import Explode
 
 class TestExplode(unittest.TestCase):
     """Explode unit test stubs"""

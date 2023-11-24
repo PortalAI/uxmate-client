@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.unevaluateditems import Unevaluateditems
+from uxmate_client.models.unevaluateditems import Unevaluateditems
 
 class TestUnevaluateditems(unittest.TestCase):
     """Unevaluateditems unit test stubs"""

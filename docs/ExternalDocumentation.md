@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from uxmate_client.uxmate_client.external_documentation import ExternalDocumentation
+from uxmate_client.models.external_documentation import ExternalDocumentation
 
 # TODO update the JSON string below
 json = "{}"

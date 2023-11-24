@@ -1,7 +1,6 @@
 {
-    "modelPackage" : "uxmate_client",
     "apiPackage" : "uxmate_client",
     "projectName": "uxmate_client",
-    "packageVersion": "1.0.3",
+    "packageVersion": "1.0.4",
     "packageName": "uxmate_client"
 }

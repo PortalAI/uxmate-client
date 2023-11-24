@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.operationid import Operationid
+from uxmate_client.models.operationid import Operationid
 
 class TestOperationid(unittest.TestCase):
     """Operationid unit test stubs"""

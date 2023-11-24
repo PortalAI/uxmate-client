@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.maxlength import Maxlength
+from uxmate_client.models.maxlength import Maxlength
 
 class TestMaxlength(unittest.TestCase):
     """Maxlength unit test stubs"""

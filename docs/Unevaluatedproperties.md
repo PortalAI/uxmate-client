@@ -69,7 +69,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from uxmate_client.uxmate_client.unevaluatedproperties import Unevaluatedproperties
+from uxmate_client.models.unevaluatedproperties import Unevaluatedproperties
 
 # TODO update the JSON string below
 json = "{}"

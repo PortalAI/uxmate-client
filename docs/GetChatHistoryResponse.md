@@ -9,7 +9,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from uxmate_client.uxmate_client.get_chat_history_response import GetChatHistoryResponse
+from uxmate_client.models.get_chat_history_response import GetChatHistoryResponse
 
 # TODO update the JSON string below
 json = "{}"

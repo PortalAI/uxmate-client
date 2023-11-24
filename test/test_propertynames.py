@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.propertynames import Propertynames
+from uxmate_client.models.propertynames import Propertynames
 
 class TestPropertynames(unittest.TestCase):
     """Propertynames unit test stubs"""

@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.get_survey_insight_response import GetSurveyInsightResponse
+from uxmate_client.models.get_survey_insight_response import GetSurveyInsightResponse
 
 class TestGetSurveyInsightResponse(unittest.TestCase):
     """GetSurveyInsightResponse unit test stubs"""

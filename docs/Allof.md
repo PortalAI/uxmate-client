@@ -8,7 +8,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from uxmate_client.uxmate_client.allof import Allof
+from uxmate_client.models.allof import Allof
 
 # TODO update the JSON string below
 json = "{}"

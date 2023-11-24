@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.model_if import ModelIf
+from uxmate_client.models.model_if import ModelIf
 
 class TestModelIf(unittest.TestCase):
     """ModelIf unit test stubs"""

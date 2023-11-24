@@ -8,7 +8,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from uxmate_client.uxmate_client.writeonly import Writeonly
+from uxmate_client.models.writeonly import Writeonly
 
 # TODO update the JSON string below
 json = "{}"

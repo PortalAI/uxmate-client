@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.id import Id
+from uxmate_client.models.id import Id
 
 class TestId(unittest.TestCase):
     """Id unit test stubs"""

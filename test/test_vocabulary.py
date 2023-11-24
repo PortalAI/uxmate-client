@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.vocabulary import Vocabulary
+from uxmate_client.models.vocabulary import Vocabulary
 
 class TestVocabulary(unittest.TestCase):
     """Vocabulary unit test stubs"""

@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.writeonly import Writeonly
+from uxmate_client.models.writeonly import Writeonly
 
 class TestWriteonly(unittest.TestCase):
     """Writeonly unit test stubs"""

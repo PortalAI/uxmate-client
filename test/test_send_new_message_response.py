@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.send_new_message_response import SendNewMessageResponse
+from uxmate_client.models.send_new_message_response import SendNewMessageResponse
 
 class TestSendNewMessageResponse(unittest.TestCase):
     """SendNewMessageResponse unit test stubs"""

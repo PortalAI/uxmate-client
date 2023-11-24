@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.dynamicref import Dynamicref
+from uxmate_client.models.dynamicref import Dynamicref
 
 class TestDynamicref(unittest.TestCase):
     """Dynamicref unit test stubs"""

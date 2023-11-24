@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.link_server import LinkServer
+from uxmate_client.models.link_server import LinkServer
 
 class TestLinkServer(unittest.TestCase):
     """LinkServer unit test stubs"""

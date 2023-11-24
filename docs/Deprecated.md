@@ -8,7 +8,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from uxmate_client.uxmate_client.deprecated import Deprecated
+from uxmate_client.models.deprecated import Deprecated
 
 # TODO update the JSON string below
 json = "{}"

@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.headers_any_of_value import HeadersAnyOfValue
+from uxmate_client.models.headers_any_of_value import HeadersAnyOfValue
 
 class TestHeadersAnyOfValue(unittest.TestCase):
     """HeadersAnyOfValue unit test stubs"""

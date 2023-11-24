@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.comment import Comment
+from uxmate_client.models.comment import Comment
 
 class TestComment(unittest.TestCase):
     """Comment unit test stubs"""

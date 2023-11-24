@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.ref import Ref
+from uxmate_client.models.ref import Ref
 
 class TestRef(unittest.TestCase):
     """Ref unit test stubs"""

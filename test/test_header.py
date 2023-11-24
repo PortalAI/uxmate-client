@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.header import Header
+from uxmate_client.models.header import Header
 
 class TestHeader(unittest.TestCase):
     """Header unit test stubs"""

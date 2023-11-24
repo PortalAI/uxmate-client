@@ -19,7 +19,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from uxmate_client.uxmate_client.headers_any_of_value import HeadersAnyOfValue
+from uxmate_client.models.headers_any_of_value import HeadersAnyOfValue
 
 # TODO update the JSON string below
 json = "{}"

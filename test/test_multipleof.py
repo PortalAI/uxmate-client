@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.multipleof import Multipleof
+from uxmate_client.models.multipleof import Multipleof
 
 class TestMultipleof(unittest.TestCase):
     """Multipleof unit test stubs"""

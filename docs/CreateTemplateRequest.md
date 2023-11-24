@@ -17,7 +17,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from uxmate_client.uxmate_client.create_template_request import CreateTemplateRequest
+from uxmate_client.models.create_template_request import CreateTemplateRequest
 
 # TODO update the JSON string below
 json = "{}"

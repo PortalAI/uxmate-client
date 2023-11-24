@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.http_validation_error import HTTPValidationError
+from uxmate_client.models.http_validation_error import HTTPValidationError
 
 class TestHTTPValidationError(unittest.TestCase):
     """HTTPValidationError unit test stubs"""

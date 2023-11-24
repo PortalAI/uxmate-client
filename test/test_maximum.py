@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.maximum import Maximum
+from uxmate_client.models.maximum import Maximum
 
 class TestMaximum(unittest.TestCase):
     """Maximum unit test stubs"""

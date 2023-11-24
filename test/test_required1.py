@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.required1 import Required1
+from uxmate_client.models.required1 import Required1
 
 class TestRequired1(unittest.TestCase):
     """Required1 unit test stubs"""

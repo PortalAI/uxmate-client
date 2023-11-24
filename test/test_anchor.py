@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.anchor import Anchor
+from uxmate_client.models.anchor import Anchor
 
 class TestAnchor(unittest.TestCase):
     """Anchor unit test stubs"""

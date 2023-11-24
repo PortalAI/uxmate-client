@@ -69,7 +69,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from uxmate_client.uxmate_client.defs_any_of_value import DefsAnyOfValue
+from uxmate_client.models.defs_any_of_value import DefsAnyOfValue
 
 # TODO update the JSON string below
 json = "{}"

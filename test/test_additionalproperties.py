@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.additionalproperties import Additionalproperties
+from uxmate_client.models.additionalproperties import Additionalproperties
 
 class TestAdditionalproperties(unittest.TestCase):
     """Additionalproperties unit test stubs"""

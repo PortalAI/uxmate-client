@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.readonly import Readonly
+from uxmate_client.models.readonly import Readonly
 
 class TestReadonly(unittest.TestCase):
     """Readonly unit test stubs"""

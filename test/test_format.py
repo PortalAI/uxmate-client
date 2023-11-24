@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.format import Format
+from uxmate_client.models.format import Format
 
 class TestFormat(unittest.TestCase):
     """Format unit test stubs"""

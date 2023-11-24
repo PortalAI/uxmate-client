@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.get_business_response import GetBusinessResponse
+from uxmate_client.models.get_business_response import GetBusinessResponse
 
 class TestGetBusinessResponse(unittest.TestCase):
     """GetBusinessResponse unit test stubs"""

@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.exclusiveminimum import Exclusiveminimum
+from uxmate_client.models.exclusiveminimum import Exclusiveminimum
 
 class TestExclusiveminimum(unittest.TestCase):
     """Exclusiveminimum unit test stubs"""

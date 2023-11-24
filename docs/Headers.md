@@ -8,7 +8,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from uxmate_client.uxmate_client.headers import Headers
+from uxmate_client.models.headers import Headers
 
 # TODO update the JSON string below
 json = "{}"

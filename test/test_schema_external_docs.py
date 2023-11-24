@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.schema_external_docs import SchemaExternalDocs
+from uxmate_client.models.schema_external_docs import SchemaExternalDocs
 
 class TestSchemaExternalDocs(unittest.TestCase):
     """SchemaExternalDocs unit test stubs"""

@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.then import Then
+from uxmate_client.models.then import Then
 
 class TestThen(unittest.TestCase):
     """Then unit test stubs"""

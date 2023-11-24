@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.message import Message
+from uxmate_client.models.message import Message
 
 class TestMessage(unittest.TestCase):
     """Message unit test stubs"""
@@ -36,13 +36,13 @@ class TestMessage(unittest.TestCase):
         model = Message()
         if include_optional:
             return Message(
-                text = '',
-                role = 'user'
+                role = 'human',
+                content = ''
             )
         else:
             return Message(
-                text = '',
-                role = 'user',
+                role = 'human',
+                content = '',
         )
         """
 

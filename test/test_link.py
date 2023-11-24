@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.link import Link
+from uxmate_client.models.link import Link
 
 class TestLink(unittest.TestCase):
     """Link unit test stubs"""

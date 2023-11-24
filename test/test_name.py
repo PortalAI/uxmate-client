@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.name import Name
+from uxmate_client.models.name import Name
 
 class TestName(unittest.TestCase):
     """Name unit test stubs"""

@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.enum import Enum
+from uxmate_client.models.enum import Enum
 
 class TestEnum(unittest.TestCase):
     """Enum unit test stubs"""

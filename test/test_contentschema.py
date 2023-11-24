@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.contentschema import Contentschema
+from uxmate_client.models.contentschema import Contentschema
 
 class TestContentschema(unittest.TestCase):
     """Contentschema unit test stubs"""

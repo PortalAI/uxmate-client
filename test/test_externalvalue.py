@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.externalvalue import Externalvalue
+from uxmate_client.models.externalvalue import Externalvalue
 
 class TestExternalvalue(unittest.TestCase):
     """Externalvalue unit test stubs"""

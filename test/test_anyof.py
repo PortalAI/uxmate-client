@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.anyof import Anyof
+from uxmate_client.models.anyof import Anyof
 
 class TestAnyof(unittest.TestCase):
     """Anyof unit test stubs"""

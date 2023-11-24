@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.allowreserved import Allowreserved
+from uxmate_client.models.allowreserved import Allowreserved
 
 class TestAllowreserved(unittest.TestCase):
     """Allowreserved unit test stubs"""

@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from uxmate_client.uxmate_client.schema_external_docs import SchemaExternalDocs
+from uxmate_client.models.schema_external_docs import SchemaExternalDocs
 
 # TODO update the JSON string below
 json = "{}"

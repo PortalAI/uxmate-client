@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.server import Server
+from uxmate_client.models.server import Server
 
 class TestServer(unittest.TestCase):
     """Server unit test stubs"""

@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.const import Const
+from uxmate_client.models.const import Const
 
 class TestConst(unittest.TestCase):
     """Const unit test stubs"""

@@ -26,7 +26,7 @@ from typing import Tuple, Optional, List
 
 from uxmate_client.configuration import Configuration
 from uxmate_client.api_response import ApiResponse
-import uxmate_client.uxmate_client
+import uxmate_client.models
 from uxmate_client import rest
 from uxmate_client.exceptions import (
     ApiValueError,
@@ -86,7 +86,7 @@ class ApiClient:
             self.default_headers[header_name] = header_value
         self.cookie = cookie
         # Set default User-Agent.
-        self.user_agent = 'OpenAPI-Generator/1.0.3/python'
+        self.user_agent = 'OpenAPI-Generator/1.0.4/python'
         self.client_side_validation = configuration.client_side_validation
 
     def __enter__(self):
@@ -425,7 +425,7 @@ class ApiClient:
             if klass in self.NATIVE_TYPES_MAPPING:
                 klass = self.NATIVE_TYPES_MAPPING[klass]
             else:
-                klass = getattr(uxmate_client.uxmate_client, klass)
+                klass = getattr(uxmate_client.models, klass)
 
         if klass in self.PRIMITIVE_TYPES:
             return self.__deserialize_primitive(data, klass)

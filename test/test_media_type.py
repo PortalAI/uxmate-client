@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.media_type import MediaType
+from uxmate_client.models.media_type import MediaType
 
 class TestMediaType(unittest.TestCase):
     """MediaType unit test stubs"""

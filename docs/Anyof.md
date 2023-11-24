@@ -8,7 +8,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from uxmate_client.uxmate_client.anyof import Anyof
+from uxmate_client.models.anyof import Anyof
 
 # TODO update the JSON string below
 json = "{}"

@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.summary import Summary
+from uxmate_client.models.summary import Summary
 
 class TestSummary(unittest.TestCase):
     """Summary unit test stubs"""

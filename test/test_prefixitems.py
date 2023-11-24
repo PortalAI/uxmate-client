@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.prefixitems import Prefixitems
+from uxmate_client.models.prefixitems import Prefixitems
 
 class TestPrefixitems(unittest.TestCase):
     """Prefixitems unit test stubs"""

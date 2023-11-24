@@ -8,7 +8,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from uxmate_client.uxmate_client.parameters_any_of_value import ParametersAnyOfValue
+from uxmate_client.models.parameters_any_of_value import ParametersAnyOfValue
 
 # TODO update the JSON string below
 json = "{}"

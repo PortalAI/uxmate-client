@@ -8,7 +8,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from uxmate_client.uxmate_client.dynamicref import Dynamicref
+from uxmate_client.models.dynamicref import Dynamicref
 
 # TODO update the JSON string below
 json = "{}"

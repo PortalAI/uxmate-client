@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.contentencoding import Contentencoding
+from uxmate_client.models.contentencoding import Contentencoding
 
 class TestContentencoding(unittest.TestCase):
     """Contentencoding unit test stubs"""

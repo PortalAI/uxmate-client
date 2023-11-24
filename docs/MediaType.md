@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from uxmate_client.uxmate_client.media_type import MediaType
+from uxmate_client.models.media_type import MediaType
 
 # TODO update the JSON string below
 json = "{}"

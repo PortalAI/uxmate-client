@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.url import Url
+from uxmate_client.models.url import Url
 
 class TestUrl(unittest.TestCase):
     """Url unit test stubs"""

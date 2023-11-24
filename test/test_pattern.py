@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.pattern import Pattern
+from uxmate_client.models.pattern import Pattern
 
 class TestPattern(unittest.TestCase):
     """Pattern unit test stubs"""

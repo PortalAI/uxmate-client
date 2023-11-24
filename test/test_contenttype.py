@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.contenttype import Contenttype
+from uxmate_client.models.contenttype import Contenttype
 
 class TestContenttype(unittest.TestCase):
     """Contenttype unit test stubs"""

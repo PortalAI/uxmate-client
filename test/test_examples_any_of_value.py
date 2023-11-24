@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.examples_any_of_value import ExamplesAnyOfValue
+from uxmate_client.models.examples_any_of_value import ExamplesAnyOfValue
 
 class TestExamplesAnyOfValue(unittest.TestCase):
     """ExamplesAnyOfValue unit test stubs"""

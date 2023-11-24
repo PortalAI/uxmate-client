@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.model_not import ModelNot
+from uxmate_client.models.model_not import ModelNot
 
 class TestModelNot(unittest.TestCase):
     """ModelNot unit test stubs"""

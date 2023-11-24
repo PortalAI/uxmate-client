@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.dynamicanchor import Dynamicanchor
+from uxmate_client.models.dynamicanchor import Dynamicanchor
 
 class TestDynamicanchor(unittest.TestCase):
     """Dynamicanchor unit test stubs"""

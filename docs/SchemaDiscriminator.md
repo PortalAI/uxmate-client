@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from uxmate_client.uxmate_client.schema_discriminator import SchemaDiscriminator
+from uxmate_client.models.schema_discriminator import SchemaDiscriminator
 
 # TODO update the JSON string below
 json = "{}"

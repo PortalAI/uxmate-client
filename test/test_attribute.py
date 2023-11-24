@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.attribute import Attribute
+from uxmate_client.models.attribute import Attribute
 
 class TestAttribute(unittest.TestCase):
     """Attribute unit test stubs"""

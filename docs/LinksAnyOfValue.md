@@ -15,7 +15,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from uxmate_client.uxmate_client.links_any_of_value import LinksAnyOfValue
+from uxmate_client.models.links_any_of_value import LinksAnyOfValue
 
 # TODO update the JSON string below
 json = "{}"

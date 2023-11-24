@@ -1,7 +1,6 @@
 # coding: utf-8
 
 # flake8: noqa
-
 """
     FastAPI
 
@@ -14,23 +13,7 @@
 """  # noqa: E501
 
 
-__version__ = "1.0.4"
-
-# import apis into sdk package
-from uxmate_client.default_api import DefaultApi
-
-# import ApiClient
-from uxmate_client.api_response import ApiResponse
-from uxmate_client.api_client import ApiClient
-from uxmate_client.configuration import Configuration
-from uxmate_client.exceptions import OpenApiException
-from uxmate_client.exceptions import ApiTypeError
-from uxmate_client.exceptions import ApiValueError
-from uxmate_client.exceptions import ApiKeyError
-from uxmate_client.exceptions import ApiAttributeError
-from uxmate_client.exceptions import ApiException
-
-# import models into sdk package
+# import models into model package
 from uxmate_client.models.additionalproperties import Additionalproperties
 from uxmate_client.models.allof import Allof
 from uxmate_client.models.allowreserved import Allowreserved

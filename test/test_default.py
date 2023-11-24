@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.default import Default
+from uxmate_client.models.default import Default
 
 class TestDefault(unittest.TestCase):
     """Default unit test stubs"""

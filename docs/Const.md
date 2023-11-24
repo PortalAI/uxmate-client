@@ -8,7 +8,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from uxmate_client.uxmate_client.const import Const
+from uxmate_client.models.const import Const
 
 # TODO update the JSON string below
 json = "{}"

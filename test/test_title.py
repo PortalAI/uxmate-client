@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.title import Title
+from uxmate_client.models.title import Title
 
 class TestTitle(unittest.TestCase):
     """Title unit test stubs"""

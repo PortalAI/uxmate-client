@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.wrapped import Wrapped
+from uxmate_client.models.wrapped import Wrapped
 
 class TestWrapped(unittest.TestCase):
     """Wrapped unit test stubs"""

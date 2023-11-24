@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.minitems import Minitems
+from uxmate_client.models.minitems import Minitems
 
 class TestMinitems(unittest.TestCase):
     """Minitems unit test stubs"""

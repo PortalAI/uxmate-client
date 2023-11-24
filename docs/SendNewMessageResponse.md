@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from uxmate_client.uxmate_client.send_new_message_response import SendNewMessageResponse
+from uxmate_client.models.send_new_message_response import SendNewMessageResponse
 
 # TODO update the JSON string below
 json = "{}"

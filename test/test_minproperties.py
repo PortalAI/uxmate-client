@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.minproperties import Minproperties
+from uxmate_client.models.minproperties import Minproperties
 
 class TestMinproperties(unittest.TestCase):
     """Minproperties unit test stubs"""

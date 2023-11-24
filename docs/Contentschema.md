@@ -69,7 +69,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from uxmate_client.uxmate_client.contentschema import Contentschema
+from uxmate_client.models.contentschema import Contentschema
 
 # TODO update the JSON string below
 json = "{}"

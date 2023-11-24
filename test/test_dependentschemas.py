@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.dependentschemas import Dependentschemas
+from uxmate_client.models.dependentschemas import Dependentschemas
 
 class TestDependentschemas(unittest.TestCase):
     """Dependentschemas unit test stubs"""

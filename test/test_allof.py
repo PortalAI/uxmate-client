@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.allof import Allof
+from uxmate_client.models.allof import Allof
 
 class TestAllof(unittest.TestCase):
     """Allof unit test stubs"""

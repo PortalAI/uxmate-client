@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.chat_history import ChatHistory
+from uxmate_client.models.chat_history import ChatHistory
 
 class TestChatHistory(unittest.TestCase):
     """ChatHistory unit test stubs"""

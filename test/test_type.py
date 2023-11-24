@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.type import Type
+from uxmate_client.models.type import Type
 
 class TestType(unittest.TestCase):
     """Type unit test stubs"""

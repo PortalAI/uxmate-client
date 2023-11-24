@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.oneof import Oneof
+from uxmate_client.models.oneof import Oneof
 
 class TestOneof(unittest.TestCase):
     """Oneof unit test stubs"""

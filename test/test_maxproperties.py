@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.maxproperties import Maxproperties
+from uxmate_client.models.maxproperties import Maxproperties
 
 class TestMaxproperties(unittest.TestCase):
     """Maxproperties unit test stubs"""

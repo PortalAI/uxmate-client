@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.model_else import ModelElse
+from uxmate_client.models.model_else import ModelElse
 
 class TestModelElse(unittest.TestCase):
     """ModelElse unit test stubs"""

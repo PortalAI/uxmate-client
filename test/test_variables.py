@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.variables import Variables
+from uxmate_client.models.variables import Variables
 
 class TestVariables(unittest.TestCase):
     """Variables unit test stubs"""

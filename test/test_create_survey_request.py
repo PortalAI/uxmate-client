@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.create_survey_request import CreateSurveyRequest
+from uxmate_client.models.create_survey_request import CreateSurveyRequest
 
 class TestCreateSurveyRequest(unittest.TestCase):
     """CreateSurveyRequest unit test stubs"""

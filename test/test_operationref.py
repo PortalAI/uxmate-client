@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.operationref import Operationref
+from uxmate_client.models.operationref import Operationref
 
 class TestOperationref(unittest.TestCase):
     """Operationref unit test stubs"""

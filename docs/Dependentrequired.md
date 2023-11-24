@@ -8,7 +8,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from uxmate_client.uxmate_client.dependentrequired import Dependentrequired
+from uxmate_client.models.dependentrequired import Dependentrequired
 
 # TODO update the JSON string below
 json = "{}"

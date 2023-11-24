@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.deprecated import Deprecated
+from uxmate_client.models.deprecated import Deprecated
 
 class TestDeprecated(unittest.TestCase):
     """Deprecated unit test stubs"""

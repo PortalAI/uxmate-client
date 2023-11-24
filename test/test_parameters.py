@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.parameters import Parameters
+from uxmate_client.models.parameters import Parameters
 
 class TestParameters(unittest.TestCase):
     """Parameters unit test stubs"""

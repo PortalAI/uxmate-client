@@ -8,7 +8,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from uxmate_client.uxmate_client.dynamicanchor import Dynamicanchor
+from uxmate_client.models.dynamicanchor import Dynamicanchor
 
 # TODO update the JSON string below
 json = "{}"

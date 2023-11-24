@@ -8,7 +8,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from uxmate_client.uxmate_client.namespace import Namespace
+from uxmate_client.models.namespace import Namespace
 
 # TODO update the JSON string below
 json = "{}"

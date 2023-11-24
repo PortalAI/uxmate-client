@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.xml import XML
+from uxmate_client.models.xml import XML
 
 class TestXML(unittest.TestCase):
     """XML unit test stubs"""

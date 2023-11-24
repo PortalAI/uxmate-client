@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.defs import Defs
+from uxmate_client.models.defs import Defs
 
 class TestDefs(unittest.TestCase):
     """Defs unit test stubs"""

@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.validation_error import ValidationError
+from uxmate_client.models.validation_error import ValidationError
 
 class TestValidationError(unittest.TestCase):
     """ValidationError unit test stubs"""

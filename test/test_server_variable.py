@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.server_variable import ServerVariable
+from uxmate_client.models.server_variable import ServerVariable
 
 class TestServerVariable(unittest.TestCase):
     """ServerVariable unit test stubs"""

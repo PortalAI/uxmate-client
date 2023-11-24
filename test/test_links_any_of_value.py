@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.links_any_of_value import LinksAnyOfValue
+from uxmate_client.models.links_any_of_value import LinksAnyOfValue
 
 class TestLinksAnyOfValue(unittest.TestCase):
     """LinksAnyOfValue unit test stubs"""

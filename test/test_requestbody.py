@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.requestbody import Requestbody
+from uxmate_client.models.requestbody import Requestbody
 
 class TestRequestbody(unittest.TestCase):
     """Requestbody unit test stubs"""

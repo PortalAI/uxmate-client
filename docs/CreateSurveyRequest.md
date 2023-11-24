@@ -15,7 +15,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from uxmate_client.uxmate_client.create_survey_request import CreateSurveyRequest
+from uxmate_client.models.create_survey_request import CreateSurveyRequest
 
 # TODO update the JSON string below
 json = "{}"

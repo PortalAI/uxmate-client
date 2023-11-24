@@ -9,7 +9,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from uxmate_client.uxmate_client.http_validation_error import HTTPValidationError
+from uxmate_client.models.http_validation_error import HTTPValidationError
 
 # TODO update the JSON string below
 json = "{}"

@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.create_template_response import CreateTemplateResponse
+from uxmate_client.models.create_template_response import CreateTemplateResponse
 
 class TestCreateTemplateResponse(unittest.TestCase):
     """CreateTemplateResponse unit test stubs"""

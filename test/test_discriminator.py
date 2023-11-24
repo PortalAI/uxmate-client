@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.discriminator import Discriminator
+from uxmate_client.models.discriminator import Discriminator
 
 class TestDiscriminator(unittest.TestCase):
     """Discriminator unit test stubs"""

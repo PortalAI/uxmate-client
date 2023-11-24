@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.update_business_request import UpdateBusinessRequest
+from uxmate_client.models.update_business_request import UpdateBusinessRequest
 
 class TestUpdateBusinessRequest(unittest.TestCase):
     """UpdateBusinessRequest unit test stubs"""

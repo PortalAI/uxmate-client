@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.minimum import Minimum
+from uxmate_client.models.minimum import Minimum
 
 class TestMinimum(unittest.TestCase):
     """Minimum unit test stubs"""

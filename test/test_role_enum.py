@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.role_enum import RoleEnum
+from uxmate_client.models.role_enum import RoleEnum
 
 class TestRoleEnum(unittest.TestCase):
     """RoleEnum unit test stubs"""

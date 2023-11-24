@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from uxmate_client.uxmate_client.link import Link
+from uxmate_client.models.link import Link
 
 # TODO update the JSON string below
 json = "{}"

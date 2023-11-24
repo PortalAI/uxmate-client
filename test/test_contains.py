@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.contains import Contains
+from uxmate_client.models.contains import Contains
 
 class TestContains(unittest.TestCase):
     """Contains unit test stubs"""

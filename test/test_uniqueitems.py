@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.uniqueitems import Uniqueitems
+from uxmate_client.models.uniqueitems import Uniqueitems
 
 class TestUniqueitems(unittest.TestCase):
     """Uniqueitems unit test stubs"""

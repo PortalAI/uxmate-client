@@ -8,7 +8,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from uxmate_client.uxmate_client.maxcontains import Maxcontains
+from uxmate_client.models.maxcontains import Maxcontains
 
 # TODO update the JSON string below
 json = "{}"

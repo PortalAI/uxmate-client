@@ -8,7 +8,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from uxmate_client.uxmate_client.enum import Enum
+from uxmate_client.models.enum import Enum
 
 # TODO update the JSON string below
 json = "{}"

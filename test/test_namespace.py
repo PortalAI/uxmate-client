@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.namespace import Namespace
+from uxmate_client.models.namespace import Namespace
 
 class TestNamespace(unittest.TestCase):
     """Namespace unit test stubs"""

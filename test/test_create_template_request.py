@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.create_template_request import CreateTemplateRequest
+from uxmate_client.models.create_template_request import CreateTemplateRequest
 
 class TestCreateTemplateRequest(unittest.TestCase):
     """CreateTemplateRequest unit test stubs"""

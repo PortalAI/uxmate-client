@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from uxmate_client.uxmate_client.model_schema import ModelSchema
+from uxmate_client.models.model_schema import ModelSchema
 
 class TestModelSchema(unittest.TestCase):
     """ModelSchema unit test stubs"""
